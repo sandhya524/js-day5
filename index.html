@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          week = prompt("enter a day")
+        if (week == "monday")
+        {
+            console.log("start your week strong")
+        }
+        else if(week == "tuesday")
+        {
+            console.log("keep going")
+        }
+        else if(week == "wednesday")
+        {
+            console.log("halfway there")
+        }
+        else if(week == 'thursday')
+        {
+            console.log("almost the weekend")
+        }
+        else if(week == "friday")
+        {
+            console.log("happy friday")
+        }
+        else if(week == "saturday" || week == "sunday")
+        {
+            console.log("enjoy the weekend")
+        }
+
+        // Prompt the user to enter the color of the traffic light.Display the corresponding action.
+
+  let light = prompt("enter the light")
+ if(light == "red"){
+    console.log("stop")
+ }else if(light == "yellow"){
+    console.log("get ready")
+ }else if(light=="green"){
+    console.log("go")
+ }
+ else{
+    console.log("invalid")
+ }
+
+// Prompt the user to enter the total purchase amount.Display the discount percentage.
+// “No discount” if the amount is less than $50.
+// “5% discount” if the amount is between $50 and $100.
+// “10% discount” if the amount is between $101 and $200.
+// “15% discount” if the amount is above $200.
+let purchase =prompt("enter the amount")
+if(purchase < 50){
+    console.log("no discount")
+}else if(purchase < 100){
+     console.log("5% discount")
+}else if(purchase < 200){
+    console.log("10% discount")
+}else if(purchase >= 200){
+    console.log("15% discount")
+}
+
+
+// Assume a variable dish holds the name of the dish
+//  as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").
+// Print the price.
+
+let dish = prompt("enter your dish")
+switch(dish){
+    case "Biryani":console.log("price 100/-")
+    break;
+    case "Shawarma":console.log("price 200/-")
+    break;
+    case "Fried rice":console.log("price 300/-")
+    break;
+    case "Veg pula":console.log("price 500/-")
+    break;
+    default:console.log("eat somthing")
+}
+
+
+
+
+
+    </script>
+</body>
+</html>
